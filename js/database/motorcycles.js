@@ -7,7 +7,7 @@ const motorcycleDatabase = [
     recommendation: "Utilize óleo de suspensão SAE 10W para melhor desempenho.",
   },
   {
-    model: "honda cg 160",
+    model: " honda cg 160  ",
     leftVolume: "150 ml",
     rightVolume: "250 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W para este modelo.",
