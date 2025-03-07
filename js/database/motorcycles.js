@@ -34,10 +34,10 @@ const motorcycleDatabase = [
   },
   {
     model: "honda xre 300",
-    leftVolume: "403 ml",
-    rightVolume: "403 ml",
+    leftVolume: "550 ml",
+    rightVolume: "550 ml",
     recommendation:
-      "Para uso off-road mais intenso, considere óleo de suspensão SAE 15W.",
+      "Para uso off-road mais intenso, considere óleo de suspensão SAE 10W.",
   },
   {
     model: "bmw g 310 gs",
@@ -47,21 +47,21 @@ const motorcycleDatabase = [
   },
   {
     model: "yamaha fazer 250",
-    leftVolume: "367 ml",
-    rightVolume: "367 ml",
+    leftVolume: "320 ml",
+    rightVolume: "320 ml",
     recommendation:
       "Para melhor desempenho em estradas irregulares, use óleo SAE 10W.",
   },
   {
     model: "honda biz 125",
-    leftVolume: "63 ml",
-    rightVolume: "63 ml",
-    recommendation: "Use óleo de suspensão SAE 5W neste modelo.",
+    leftVolume: "60 ml",
+    rightVolume: "60 ml",
+    recommendation: "Use óleo de suspensão SAE 10W neste modelo.",
   },
   {
     model: "yamaha factor 150",
-    leftVolume: "97 ml",
-    rightVolume: "97 ml",
-    recommendation: "Recomenda-se óleo de suspensão SAE 7,5W.",
+    leftVolume: "170 ml",
+    rightVolume: "170 ml",
+    recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
   },
 ];
