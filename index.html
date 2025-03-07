@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Óleo para Suspensão de Motos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Óleo para Suspensão</h1>
+      <p>Encontre a quantidade correta de óleo para sua motocicleta</p>
+    </header>
+
+    <div class="container">
+      <div class="search-box">
+        <h2>Buscar Modelo</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            id="motorcycle-model"
+            placeholder="Digite o modelo da sua motocicleta (ex: Honda CB 500F, Yamaha MT-07)"
+          />
+        </div>
+        <button id="search-btn">Buscar Informações</button>
+      </div>
+
+      <div class="result-box" id="result-container">
+        <h3 id="model-title">Modelo: <span id="model-name"></span></h3>
+        <div class="oil-info">
+          <div class="side">
+            <h4>Suspensão Esquerda</h4>
+            <div class="volume" id="left-volume">0 ml</div>
+          </div>
+          <div class="side">
+            <h4>Suspensão Direita</h4>
+            <div class="volume" id="right-volume">0 ml</div>
+          </div>
+        </div>
+        <div class="recommendation" id="recommendation">
+          <p>
+            Recomendação: Para melhores resultados, utilize óleo de suspensão da
+            viscosidade recomendada pelo fabricante.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/database/motorcycles.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
