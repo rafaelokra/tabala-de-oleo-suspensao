@@ -1,6 +1,10 @@
-// Código principal da aplicação
-document.addEventListener("DOMContentLoaded", function () {
-  // Inicializa os eventos depois que o DOM estiver carregado
+document.getElementById("search-btn").addEventListener("click", function () {
+  const modelInput = document
+    .getElementById("motorcycle-model")
+    .value.toLowerCase();
+  const motorcycleData = motorcycleDatabase.find(
+    (motorcycle) => motorcycle.model === modelInput
+  );
   initializeEvents();
 });
 
