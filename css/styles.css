@@ -5,6 +5,14 @@
   font-family: "Inter", sans-serif;
 }
 
+.elemento {
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera mais recentes */
+  -moz-transform: rotate(45deg); /* Firefox mais antigo */
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -o-transform: rotate(45deg); /* Opera mais antigo */
+  transform: rotate(45deg); /* Versão padrão */
+}
+
 :root {
   /* Paleta de cores da Oficina RBF Motos */
   --primary-yellow: #ffe11a; /* Amarelo vivo do logo */
