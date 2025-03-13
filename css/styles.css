@@ -162,6 +162,26 @@ button:hover {
   margin-top: 1rem;
   border-left: 4px solid var(--primary-yellow);
 }
+footer {
+  background-color: var(--accent-dark);
+  color: var(--text-light);
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 2px solid var(--primary-yellow);
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer p:last-child {
+  color: #999;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+}
 
 @media (max-width: 600px) {
   .oil-info {
