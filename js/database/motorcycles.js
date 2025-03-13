@@ -233,4 +233,10 @@ const motorcycleDatabase = [
     rightVolume: "514 ± 2,5 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
   },
+  {
+    model: "honda fan 125",
+    leftVolume: "74,5 ± 2,5 ml",
+    rightVolume: "74,5± 2,5 ml",
+    recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
+  },
 ];
