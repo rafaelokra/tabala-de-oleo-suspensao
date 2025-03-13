@@ -40,7 +40,7 @@ const motorcycleDatabase = [
       "Óleo de suspensão SAE 10W é o mais indicado para este modelo.",
   },
   {
-    model: "honda pcx 160",
+    model: "honda pcx 150",
     leftVolume: "116 ± 2,5 ml",
     rightVolume: "116 ± 2,5 ml",
     recommendation:
