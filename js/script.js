@@ -31,6 +31,7 @@ function searchMotorcycle() {
   const leftVolume = document.getElementById("left-volume");
   const rightVolume = document.getElementById("right-volume");
   const recommendation = document.getElementById("recommendation");
+  const fluidLevel = document.getElementById("fluid-level"); // Novo elemento
 
   // Limpar resultados anteriores
   resultContainer.classList.remove("active");
@@ -49,6 +50,7 @@ function searchMotorcycle() {
     leftVolume.textContent = foundMotorcycle.leftVolume;
     rightVolume.textContent = foundMotorcycle.rightVolume;
     recommendation.innerHTML = `<p>Recomendação: ${foundMotorcycle.recommendation}</p>`;
+    fluidLevel.textContent = foundMotorcycle.fluidLevel || "Não informado"; // Atualizar nível de fluido
 
     resultContainer.classList.add("active");
   } else {
@@ -65,6 +67,7 @@ function searchMotorcycle() {
                 <li>Consulte o manual do proprietário para informações precisas.</li>
             </ul>
         `;
+    fluidLevel.textContent = "N/A"; // Se não encontrar, definir como N/A
 
     resultContainer.classList.add("active");
   }
