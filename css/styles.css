@@ -178,12 +178,16 @@ button:hover {
   margin-top: 1rem;
   border-left: 4px solid var(--primary-yellow);
 
-  /* Centralização */
+  /* Centralização e largura controlada */
+  max-width: 800px;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 footer {
