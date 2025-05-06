@@ -31,10 +31,10 @@ function searchMotorcycle() {
   const leftVolume = document.getElementById("left-volume");
   const rightVolume = document.getElementById("right-volume");
   const recommendation = document.getElementById("recommendation");
-  const fluidLevel = document.getElementById("fluid-level"); // Novo elemento
-
-  // Limpar resultados anteriores
+  const engineOil = document.getElementById("engine-oil"); // NOVO
+  const fluidLevel = document.getElementById("fluid-level");
   resultContainer.classList.remove("active");
+  const engineOilContainer = document.getElementById("engine-oil-container");
 
   if (modelInput === "") {
     alert("Por favor, digite um modelo de motocicleta.");
@@ -51,6 +51,9 @@ function searchMotorcycle() {
     rightVolume.textContent = foundMotorcycle.rightVolume;
     recommendation.innerHTML = `<p>Recomendação: ${foundMotorcycle.recommendation}</p>`;
     fluidLevel.textContent = foundMotorcycle.fluidLevel || "Não informado"; // Atualizar nível de fluido
+    engineOil.textContent = foundMotorcycle.engineOil || "Não informado"; // NOVO
+    engineOil.textContent = foundMotorcycle.engineOil || "Não informado";
+    engineOilContainer.style.display = "block";
 
     resultContainer.classList.add("active");
   } else {

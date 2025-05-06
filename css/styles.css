@@ -170,6 +170,22 @@ button:hover {
   margin-top: 1rem;
   border-left: 4px solid var(--primary-yellow);
 }
+
+.result-box2 {
+  background-color: rgba(255, 225, 26, 0.1);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  border-left: 4px solid var(--primary-yellow);
+
+  /* Centralização */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 footer {
   background-color: var(--accent-dark);
   color: var(--text-light);
