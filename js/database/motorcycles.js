@@ -13,7 +13,7 @@ const motorcycleDatabase = [
     leftVolume: "150 ml",
     rightVolume: "250 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W para este modelo.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda falcon 400",
@@ -21,7 +21,7 @@ const motorcycleDatabase = [
     rightVolume: "529 ± 2,5 ml",
     fluidLevel: "135 mm",
     recommendation: "Utilize óleo de suspensão SAE 10W para melhor desempenho.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xre 190",
@@ -29,7 +29,7 @@ const motorcycleDatabase = [
     rightVolume: "176 ± 2,5 ml",
     fluidLevel: "184 mm",
     recommendation: "Para suspensões mais macias, pode-se usar óleo SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda crf 230",
@@ -38,7 +38,7 @@ const motorcycleDatabase = [
     fluidLevel: "144 mm",
     recommendation:
       "Óleo de suspensão SAE 10W é o mais indicado para este modelo.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xre 300",
@@ -47,7 +47,7 @@ const motorcycleDatabase = [
     fluidLevel: "143 mm",
     recommendation:
       "Óleo de suspensão SAE 10W é o mais indicado para este modelo.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda pcx 150",
@@ -56,7 +56,7 @@ const motorcycleDatabase = [
     fluidLevel: "81 mm",
     recommendation:
       "Óleo de suspensão SAE 10W é o mais indicado para este modelo.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cb twister 250",
@@ -65,7 +65,7 @@ const motorcycleDatabase = [
     fluidLevel: "150 mm",
     recommendation:
       "Para melhor desempenho em estradas irregulares, use óleo SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cb twister 300",
@@ -74,7 +74,7 @@ const motorcycleDatabase = [
     fluidLevel: "114",
     recommendation:
       "Para melhor desempenho em estradas irregulares, use óleo SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda biz 125",
@@ -82,7 +82,7 @@ const motorcycleDatabase = [
     rightVolume: "60 ml",
     fluidLevel: "98 mm",
     recommendation: "Use óleo de suspensão SAE 10W neste modelo.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda crf 250",
@@ -90,35 +90,35 @@ const motorcycleDatabase = [
     rightVolume: "637 ± 2,5 ml",
     fluidLevel: "94 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda pop 110",
     leftVolume: "58 ± 1 ml",
     rightVolume: "58 ± 1 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda pop 100",
     leftVolume: "58 ± 1 ml",
     rightVolume: "58 ± 1 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cg 160 2016",
     leftVolume: "139 ± 2,5 ml",
     rightVolume: "139 ± 2,5 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cg 160 2025",
     leftVolume: "182 ± 2,5 ml",
     rightVolume: "198 ± 2,5 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda bros 150 e 160",
@@ -126,7 +126,7 @@ const motorcycleDatabase = [
     rightVolume: "180 ± 2,5 ml",
     fluidLevel: "182 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda bros 125 2013",
@@ -134,7 +134,7 @@ const motorcycleDatabase = [
     rightVolume: "176 ± 2,5 ml",
     fluidLevel: "184 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda bros 160",
@@ -142,7 +142,7 @@ const motorcycleDatabase = [
     rightVolume: "180 ± 2,5 ml",
     fluidLevel: "182 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda lead 110",
@@ -150,7 +150,7 @@ const motorcycleDatabase = [
     rightVolume: "89 ± 1,0 ml",
     fluidLevel: "52 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda adv",
@@ -158,7 +158,7 @@ const motorcycleDatabase = [
     rightVolume: "127 ± 2,5 ml",
     fluidLevel: "65 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda elite 125",
@@ -166,21 +166,21 @@ const motorcycleDatabase = [
     rightVolume: "85 ± 2,5 ml",
     fluidLevel: "60 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xre sahara 300",
     leftVolume: "570 ± 2,5 ml",
     rightVolume: "570 ± 2,5 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xr 400",
     leftVolume: "570 ml",
     rightVolume: "570 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda tornado 300",
@@ -188,7 +188,7 @@ const motorcycleDatabase = [
     rightVolume: "570 ± 2,5 ml",
     fluidLevel: "144 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda tornado 250",
@@ -196,7 +196,7 @@ const motorcycleDatabase = [
     rightVolume: "586 ± 2,5 ml",
     fluidLevel: "128 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xr 200",
@@ -204,7 +204,7 @@ const motorcycleDatabase = [
     rightVolume: "312 ml",
     fluidLevel: "127 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xlx 350r",
@@ -212,14 +212,14 @@ const motorcycleDatabase = [
     rightVolume: "418 ml",
     fluidLevel: "130mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xlx 250r",
     leftVolume: "300 ml",
     rightVolume: "300 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xlr 125",
@@ -227,7 +227,7 @@ const motorcycleDatabase = [
     rightVolume: "170 ml",
     fluidLevel: "194 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xl 700 transalp",
@@ -235,7 +235,7 @@ const motorcycleDatabase = [
     rightVolume: "598 ± 2,5 ml",
     fluidLevel: "104 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xl 250r",
@@ -243,21 +243,21 @@ const motorcycleDatabase = [
     rightVolume: "300 ml",
     fluidLevel: "173 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda xl 125",
     leftVolume: "155 ml",
     rightVolume: "155 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda x adv",
     leftVolume: "596 ml",
     rightVolume: "586 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda vt 600 shadow",
@@ -265,7 +265,7 @@ const motorcycleDatabase = [
     rightVolume: "449 ml",
     fluidLevel: "111 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda shadow 750",
@@ -273,7 +273,7 @@ const motorcycleDatabase = [
     rightVolume: "487 ± 2,5 ml",
     fluidLevel: "100 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda sh 300i",
@@ -281,7 +281,7 @@ const motorcycleDatabase = [
     rightVolume: "149 ± 2,5 ml",
     fluidLevel: "90 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda sh 150i",
@@ -289,7 +289,7 @@ const motorcycleDatabase = [
     rightVolume: "100 ± 1,0 ml",
     fluidLevel: "106 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda pcx 160 2023",
@@ -297,7 +297,7 @@ const motorcycleDatabase = [
     rightVolume: "135 ± 2,5 ml",
     fluidLevel: "52 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda nc 750x",
@@ -305,7 +305,7 @@ const motorcycleDatabase = [
     rightVolume: "435 ± 2,5 ml",
     fluidLevel: "135 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda nc 700x",
@@ -313,7 +313,7 @@ const motorcycleDatabase = [
     rightVolume: "514 ± 2,5 ml",
     fluidLevel: "104 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda fan 125",
@@ -321,7 +321,7 @@ const motorcycleDatabase = [
     rightVolume: "74,5± 2,5 ml",
     fluidLevel: "178 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cb 500f",
@@ -329,7 +329,7 @@ const motorcycleDatabase = [
     rightVolume: "460 ± 2,5 ml",
     fluidLevel: "140 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cb 500x",
@@ -337,7 +337,7 @@ const motorcycleDatabase = [
     rightVolume: "451± 2,5 ml",
     fluidLevel: "160 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cb 600 hornet ",
@@ -345,7 +345,7 @@ const motorcycleDatabase = [
     rightVolume: "494 ± 2,5 ml",
     fluidLevel: "70 ml",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cbr 650f",
@@ -353,7 +353,7 @@ const motorcycleDatabase = [
     rightVolume: "505± 2,5 ml",
     fluidLevel: "140 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cbr 650fa",
@@ -361,7 +361,7 @@ const motorcycleDatabase = [
     rightVolume: "482± 2,5 ml",
     fluidLevel: "128 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
   {
     model: "honda cbr 650x",
@@ -369,6 +369,6 @@ const motorcycleDatabase = [
     rightVolume: "505 ± 2,5 ml",
     fluidLevel: "140 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: "2.8 L",
+    engineOil: "",
   },
 ];
