@@ -47,7 +47,7 @@ const motorcycleDatabase = [
     fluidLevel: "143 mm",
     recommendation:
       "Óleo de suspensão SAE 10W é o mais indicado para este modelo.",
-    engineOil: "1.8 L",
+    engineOil: "1.5 L",
   },
   {
     model: "honda pcx 150",
@@ -166,7 +166,7 @@ const motorcycleDatabase = [
     rightVolume: "85 ± 2,5 ml",
     fluidLevel: "60 mm",
     recommendation: "Recomenda-se óleo de suspensão SAE 10W.",
-    engineOil: ".8 L",
+    engineOil: "0.8 L",
   },
   {
     model: "honda xre sahara 300",
